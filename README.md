@@ -47,4 +47,4 @@ We can even see difference here. Even though travelling by 2nd lowest row is fas
 ### Results:
 | Qlearning in online learning mode | Expected SARSA in online learning mode |
 :-------------------------:|:-------------------------:
- ![](game_2_qlearning.png) | ![](game_2_expected_sarsa.png) 
+ ![](images/game_2_qlearning.png) | ![](images/game_2_expected_sarsa.png) 
