@@ -30,10 +30,14 @@ The agents path is in blue and you get 0 for every move and 100 if goal reached 
 ### Results:
 
 | Every Visit Monte Carlo | First Visit Monte Carlo |
+:-------------------------:|:-------------------------:
  ![](images/every_visit_mc.png) | ![](images/first_visit_mc.png) 
- SARSA with online learning | SARSA with batch learning 
+| SARSA with online learning | SARSA with batch learning |
+:-------------------------:|:-------------------------:
  ![](images/sarsa_with_online_learning.png) | ![](images/sarsa_with_batch_learning.png) 
- Expected SARSA with online learning | Expected SARSA with batch learning 
+| Expected SARSA with online learning | Expected SARSA with batch learning |
+:-------------------------:|:-------------------------:
  ![](images/expected_sarsa_with_online_learning.png) | ![](images/expected_sarsa_with_batch_learning.png) 
- Qlearning in online learning mode | Qlearning in batch learning mode 
+| Qlearning in online learning mode | Qlearning in batch learning mode |
+:-------------------------:|:-------------------------:
  ![](images/qlearning_online.png) | ![](images/qlearning_batch.png) 
