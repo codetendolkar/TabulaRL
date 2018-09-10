@@ -38,3 +38,13 @@ The agents path is in blue and you get 0 for every move and 100 if goal reached 
  ![](images/expected_sarsa_with_online_learning.png) | ![](images/expected_sarsa_with_batch_learning.png) 
 | Qlearning in online learning mode | Qlearning in batch learning mode |
  ![](images/qlearning_online.png) | ![](images/qlearning_batch.png) 
+ 
+ ## GAME TYPE 2: 
+The agents path is in blue and you get 0 for every move and 100 if goal reached and -50 if you enter red area.
+
+We can even see difference here. Even though travelling by 2nd lowest row is fastest route and gives max reward for this type of game, expected SARSA still takes safe route while q learning takes riskier but faster route
+
+### Results:
+| Qlearning in online learning mode | Expected SARSA in online learning mode |
+:-------------------------:|:-------------------------:
+ ![](game_2_qlearning.png) | ![](game_2_expected_sarsa.png) 
